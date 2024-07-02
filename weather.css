@@ -1,0 +1,68 @@
+.big{
+    background-color: #1E202B;
+}
+.logo img{
+    width: 70px;
+    height: 50px;
+}
+.logotitle{
+    color: white;
+}
+.list li{
+    margin: 30px;
+    list-style: none;
+    border-style: solid;
+    padding-inline: 20px;
+    border-radius: 20px;
+transition: 0.5s;
+}
+.list li a{
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+
+}
+.list li:hover{
+    border-style: solid;
+    border-radius: 20px;
+    padding-inline: 20px;
+    border-color: #0878A8;    
+}
+ul li:hover .item{
+    color: #0878A8;    
+}
+#submit{
+    background-color: #0878A8;
+    color: white;
+    padding-inline: 40px;
+    padding-block: 10px;
+}
+#input{
+    background-color: #1E202B;
+}
+::placeholder{
+    color:white!important;
+}
+.card-footer img{
+width: 20px;
+height: 20px;
+margin: 10px;
+}
+.cards .card{
+    background-color: #2D303D;
+    color: white;
+}
+.card-body h1{
+    font-size: 70px;
+}
+.img img{
+    width: 80px;
+    height: 80px;
+}
+.all-data{
+    height: 100vh;
+    background-image: url(222.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+} 
