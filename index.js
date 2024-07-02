@@ -14,7 +14,7 @@ function getWeather() {
  
  try{return new Promise(async function (callback) {
   let myData = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=95d53145337a4c2dbac230542242806&q=${getData.value}&days=7`,
+    `https://api.weatherapi.com/v1/forecast.json?key=95d53145337a4c2dbac230542242806&q=${getData.value}&days=7`,
   );
   let response = await myData.json();
   theData = response;
@@ -28,7 +28,7 @@ function getWeatherEtc() {
   try{
     return new Promise(async function (callback) {
       let myData = await fetch(
-        `http://api.weatherapi.com/v1/search.json?key=95d53145337a4c2dbac230542242806&q=lond`,
+        `https://api.weatherapi.com/v1/search.json?key=95d53145337a4c2dbac230542242806&q=lond`,
       );
       let response = await myData.json();
       theData1 = response;
